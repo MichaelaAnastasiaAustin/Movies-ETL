@@ -17,7 +17,7 @@ We were tasked with the following tasks:
 - Deliverable 4: Create the Movie Database
 
 ## Resources
-- Software: Python, Jupiter Notebook, PostgresSQL
+- Software: Python, Jupyter Notebook, PostgresSQL
 - Data Sources: wikipedia.movies.json, movies_metadata.csv, ratings.csv 
 
 
@@ -32,13 +32,16 @@ We were tasked with the following tasks:
 
 
 ### Deliverable 3: Extract and Transform the Kaggle data
-- For the third deliverable, we extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame, and merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (See ETL_clean_kaggle_data.ipynb file).
+- For the third deliverable, we extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame, and merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (See ![ETL_clean_kaggle_data.ipynb](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/ETL_clean_kaggle_data.ipynb).
 
 
 ### Deliverable 4: Create the Movie Database
 - Finally, in deliverable four, we added the movies_df DataFrame and MovieLens rating CSV data to a SQL database. See images of queries below.
 
+Movies query
 ![movies](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/Resources/movies_query.png)
+
+Ratings query
 ![ratings](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/Resources/ratings_query.png)
 
 
