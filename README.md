@@ -24,15 +24,15 @@ We were tasked with the following tasks:
 ## Results
 
 ### Deliverable 1: Write an ETL Function to Read Three Data Files
-- For the first deliverable, we successfully wrote a function that reads in the three data files and creates three separate DataFrames. See ETL_function_test.ipynb file for the three data frames.
+- For the first deliverable, we successfully wrote a function that reads in the three data files and creates three separate DataFrames. See [ETL_function_test.ipynb](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/ETL_function_test.ipynb) file for the three data frames.
 
 
 ### Deliverable 2: Extract and Transform the Wikipedia Data
-- For the second deliverable, we converted the cleaned Wikipedia data into a Pandas DataFrame-- the DataFrame is displayed in the ETL_clean_wiki_movies.ipynb file.
+- For the second deliverable, we converted the cleaned Wikipedia data into a Pandas DataFrame-- the DataFrame is displayed in the following file: [ETL_clean_wiki_movies.ipynb](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/ETL_clean_wiki_movies.ipynb).
 
 
 ### Deliverable 3: Extract and Transform the Kaggle data
-- For the third deliverable, we extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame, and merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (See ![ETL_clean_kaggle_data.ipynb](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/ETL_clean_kaggle_data.ipynb).
+- For the third deliverable, we extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame, and merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (See [ETL_clean_kaggle_data.ipynb](https://github.com/MichaelaAnastasiaAustin/Movies-ETL/blob/main/ETL_clean_kaggle_data.ipynb).
 
 
 ### Deliverable 4: Create the Movie Database
